@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Apr 27 16:20:28 2021
+# Process ID: 20308
+# Current directory: D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.runs/synth_1
+# Command line: vivado.exe -log ring_osc_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ring_osc_top.tcl
+# Log file: D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.runs/synth_1/ring_osc_top.vds
+# Journal file: D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ring_osc_top.tcl -notrace

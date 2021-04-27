@@ -1,0 +1,19 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 89f8cb9552144acabdd05e2a31ca0b4c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ring_osc_top_behav xil_defaultlib.tb_ring_osc_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.ring_osc(INV_COUNT=1)
+Compiling module xil_defaultlib.TFF
+Compiling module xil_defaultlib.counter_default
+Compiling module xil_defaultlib.ring_osc_top(CNT_WIDTH=32)
+Compiling module xil_defaultlib.tb_ring_osc_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ring_osc_top_behav

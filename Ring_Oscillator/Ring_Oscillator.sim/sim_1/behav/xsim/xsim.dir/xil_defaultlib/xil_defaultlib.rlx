@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v,1619550098,verilog,,,,tb_ring_osc_top,,,,,,,,
+D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v,1619549205,verilog,,D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc_top.v,,TFF;counter;ring_osc,,,,,,,,
+D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc_top.v,1619548131,verilog,,D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v,,ring_osc_top,,,,,,,,

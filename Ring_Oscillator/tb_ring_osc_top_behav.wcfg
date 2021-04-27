@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ring_osc_top_time_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ring_osc_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="38779fs"></ZoomEndTime>
+      <Cursor1Time time="10072fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="101"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb_ring_osc_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ring_osc_top/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ring_osc_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ring_osc_top/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group719" type="group">
+      <obj_property name="label">Ring Oscillator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1/en_out" type="logic">
+         <obj_property name="ElementShortName">en_out</obj_property>
+         <obj_property name="ObjectShortName">en_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1/enable_IBUF" type="logic">
+         <obj_property name="ElementShortName">enable_IBUF</obj_property>
+         <obj_property name="ObjectShortName">enable_IBUF</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1/osc_out" type="logic">
+         <obj_property name="ElementShortName">osc_out</obj_property>
+         <obj_property name="ObjectShortName">osc_out</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group515" type="group">
+      <obj_property name="label">TFF0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[0].TFF_i /count" type="array">
+         <obj_property name="ElementShortName">count[0:0]</obj_property>
+         <obj_property name="ObjectShortName">count[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[0].TFF_i /osc_out" type="logic">
+         <obj_property name="ElementShortName">osc_out</obj_property>
+         <obj_property name="ObjectShortName">osc_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[0].TFF_i /p_0_in" type="logic">
+         <obj_property name="ElementShortName">p_0_in</obj_property>
+         <obj_property name="ObjectShortName">p_0_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[0].TFF_i /reset_IBUF" type="logic">
+         <obj_property name="ElementShortName">reset_IBUF</obj_property>
+         <obj_property name="ObjectShortName">reset_IBUF</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group552" type="group">
+      <obj_property name="label">TFF1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[1].TFF_i /Q_i_1__0_n_0" type="logic">
+         <obj_property name="ElementShortName">Q_i_1__0_n_0</obj_property>
+         <obj_property name="ObjectShortName">Q_i_1__0_n_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[1].TFF_i /Q_reg_0" type="array">
+         <obj_property name="ElementShortName">Q_reg_0[0:0]</obj_property>
+         <obj_property name="ObjectShortName">Q_reg_0[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[1].TFF_i /count" type="array">
+         <obj_property name="ElementShortName">count[0:0]</obj_property>
+         <obj_property name="ObjectShortName">count[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_ring_osc_top/top_UUT/osc_1_counter/\counter_TFFs[1].TFF_i /reset_IBUF" type="logic">
+         <obj_property name="ElementShortName">reset_IBUF</obj_property>
+         <obj_property name="ObjectShortName">reset_IBUF</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

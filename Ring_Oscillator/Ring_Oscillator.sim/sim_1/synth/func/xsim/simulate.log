@@ -1,0 +1,7 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+Time: 3 ns  Iteration: 0  Process: /tb_ring_osc_top/ring_osc_UUT/osc_1_counter/counter_TFFs[0].TFF_i/Q_reg/Always107_37
+  File: D:/Xilinx/Vivado/2020.1/data/verilog/src/unisims/FDCE.v
+
+HDL Line: D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v:56

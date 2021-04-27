@@ -1,0 +1,224 @@
+
+*** Running vivado
+    with args -log ring_osc_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ring_osc_top.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source ring_osc_top.tcl -notrace
+Command: synth_design -top ring_osc_top -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7644
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ring_osc_top' [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc_top.v:23]
+	Parameter CNT_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ring_osc' [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v:23]
+	Parameter INV_COUNT bound to: 7 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [D:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39133]
+	Parameter INIT bound to: 2'b01 
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (1#1) [D:/Xilinx/Vivado/2020.1/scripts/rt/data/unisim_comp.v:39133]
+INFO: [Synth 8-6155] done synthesizing module 'ring_osc' (2#1) [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v:23]
+INFO: [Synth 8-6157] synthesizing module 'counter' [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v:46]
+	Parameter CNT_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'TFF' [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'TFF' (3#1) [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (4#1) [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'ring_osc_top' (5#1) [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc_top.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |    39|
+|2     |LUT2 |     1|
+|3     |FDCE |    32|
+|4     |IBUF |     2|
+|5     |OBUF |    32|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------------------------+---------+------+
+|      |Instance                     |Module   |Cells |
++------+-----------------------------+---------+------+
+|1     |top                          |         |   106|
+|2     |  osc_1                      |ring_osc |     8|
+|3     |  osc_1_counter              |counter  |    64|
+|4     |    \counter_TFFs[0].TFF_i   |TFF      |     2|
+|5     |    \counter_TFFs[10].TFF_i  |TFF_0    |     2|
+|6     |    \counter_TFFs[11].TFF_i  |TFF_1    |     2|
+|7     |    \counter_TFFs[12].TFF_i  |TFF_2    |     2|
+|8     |    \counter_TFFs[13].TFF_i  |TFF_3    |     2|
+|9     |    \counter_TFFs[14].TFF_i  |TFF_4    |     2|
+|10    |    \counter_TFFs[15].TFF_i  |TFF_5    |     2|
+|11    |    \counter_TFFs[16].TFF_i  |TFF_6    |     2|
+|12    |    \counter_TFFs[17].TFF_i  |TFF_7    |     2|
+|13    |    \counter_TFFs[18].TFF_i  |TFF_8    |     2|
+|14    |    \counter_TFFs[19].TFF_i  |TFF_9    |     2|
+|15    |    \counter_TFFs[1].TFF_i   |TFF_10   |     2|
+|16    |    \counter_TFFs[20].TFF_i  |TFF_11   |     2|
+|17    |    \counter_TFFs[21].TFF_i  |TFF_12   |     2|
+|18    |    \counter_TFFs[22].TFF_i  |TFF_13   |     2|
+|19    |    \counter_TFFs[23].TFF_i  |TFF_14   |     2|
+|20    |    \counter_TFFs[24].TFF_i  |TFF_15   |     2|
+|21    |    \counter_TFFs[25].TFF_i  |TFF_16   |     2|
+|22    |    \counter_TFFs[26].TFF_i  |TFF_17   |     2|
+|23    |    \counter_TFFs[27].TFF_i  |TFF_18   |     2|
+|24    |    \counter_TFFs[28].TFF_i  |TFF_19   |     2|
+|25    |    \counter_TFFs[29].TFF_i  |TFF_20   |     2|
+|26    |    \counter_TFFs[2].TFF_i   |TFF_21   |     2|
+|27    |    \counter_TFFs[30].TFF_i  |TFF_22   |     2|
+|28    |    \counter_TFFs[31].TFF_i  |TFF_23   |     2|
+|29    |    \counter_TFFs[3].TFF_i   |TFF_24   |     2|
+|30    |    \counter_TFFs[4].TFF_i   |TFF_25   |     2|
+|31    |    \counter_TFFs[5].TFF_i   |TFF_26   |     2|
+|32    |    \counter_TFFs[6].TFF_i   |TFF_27   |     2|
+|33    |    \counter_TFFs[7].TFF_i   |TFF_28   |     2|
+|34    |    \counter_TFFs[8].TFF_i   |TFF_29   |     2|
+|35    |    \counter_TFFs[9].TFF_i   |TFF_30   |     2|
++------+-----------------------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1081.090 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1081.090 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1081.090 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1081.090 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.runs/synth_1/ring_osc_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ring_osc_top_utilization_synth.rpt -pb ring_osc_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 27 16:20:59 2021...
