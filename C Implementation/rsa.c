@@ -54,18 +54,6 @@ uint16_t gcd(uint16_t num1, uint32_t num2)
 	}
 }
 
-/*int chooseE(int phi)
-{
-	srand(time(NULL));
-	int e = rand() % 65533 + 3;
-	while (gcd(e,phi) != 1 || e < 4)
-	{
-		srand(time(NULL));
-		e = rand() % 65533 + 3;
-	}
-	return e;
-}*/
-
 uint16_t getprime()
 {
 	uint16_t n;
