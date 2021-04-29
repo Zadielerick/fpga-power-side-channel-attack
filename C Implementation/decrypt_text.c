@@ -12,8 +12,8 @@ unsigned long long int modpow(unsigned long long int base, int power, int mod)
         return result;
 }
 
-int inverse(int a, int mod)     /*find inverse of number a in % mod*/
-{                               /*inverse of a = i*/
+int inverse(int a, int mod)   
+{                              
         int aprev, iprev, i = 1, atemp, itemp;
 
         aprev = mod, iprev = mod;
