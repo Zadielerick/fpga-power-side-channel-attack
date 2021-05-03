@@ -4,53 +4,24 @@ Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 89f8cb9552
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-2861] module 'ring_osc_top' does not have a parameter named CNT_WIDTH [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v:34]
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module unisims_ver.OBUF
-Compiling module unisims_ver.IBUF
-Compiling module unisims_ver.x_lut1_mux2
-Compiling module unisims_ver.LUT1(INIT=2'b01)
-Compiling module unisims_ver.x_lut2_mux4
-Compiling module unisims_ver.LUT2
-Compiling module xil_defaultlib.ring_osc
-Compiling module unisims_ver.FDCE(IS_C_INVERTED=1'b1)
-Compiling module xil_defaultlib.TFF
-Compiling module xil_defaultlib.TFF_0
-Compiling module xil_defaultlib.TFF_1
-Compiling module xil_defaultlib.TFF_2
-Compiling module xil_defaultlib.TFF_3
-Compiling module xil_defaultlib.TFF_4
-Compiling module xil_defaultlib.TFF_5
-Compiling module xil_defaultlib.TFF_6
-Compiling module xil_defaultlib.TFF_7
-Compiling module xil_defaultlib.TFF_8
-Compiling module xil_defaultlib.TFF_9
-Compiling module xil_defaultlib.TFF_10
-Compiling module xil_defaultlib.TFF_11
-Compiling module xil_defaultlib.TFF_12
-Compiling module xil_defaultlib.TFF_13
-Compiling module xil_defaultlib.TFF_14
-Compiling module xil_defaultlib.TFF_15
-Compiling module xil_defaultlib.TFF_16
-Compiling module xil_defaultlib.TFF_17
-Compiling module xil_defaultlib.TFF_18
-Compiling module xil_defaultlib.TFF_19
-Compiling module xil_defaultlib.TFF_20
-Compiling module xil_defaultlib.TFF_21
-Compiling module xil_defaultlib.TFF_22
-Compiling module xil_defaultlib.TFF_23
-Compiling module xil_defaultlib.TFF_24
-Compiling module xil_defaultlib.TFF_25
-Compiling module xil_defaultlib.TFF_26
-Compiling module xil_defaultlib.TFF_27
-Compiling module xil_defaultlib.TFF_28
-Compiling module xil_defaultlib.TFF_29
-Compiling module xil_defaultlib.TFF_30
-Compiling module xil_defaultlib.counter
-Compiling module xil_defaultlib.ring_osc_top
-Compiling module xil_defaultlib.tb_ring_osc_top
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot tb_ring_osc_top_func_synth
+ERROR: [VRFC 10-3180] cannot find port 'reset_IBUF' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29690]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[7]_inst_i_15_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29689]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[7]_inst_i_15' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29688]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[35]_inst_i_17_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29687]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[35]_inst_i_17' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29686]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[35]_inst_i_13_1' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29685]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[35]_inst_i_13_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29684]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[35]_inst_i_13' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29683]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[35]_inst_i_1' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29682]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[31]_inst_i_15_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29681]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[31]_inst_i_15' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29680]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[27]_inst_i_15_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29679]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[27]_inst_i_15' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29678]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[23]_inst_i_15_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29677]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[23]_inst_i_15' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29676]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[19]_inst_i_15_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29675]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[19]_inst_i_15' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29674]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[15]_inst_i_15_0' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29673]
+ERROR: [VRFC 10-3180] cannot find port 'monitor_count_OBUF[15]_inst_i_15' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/func/xsim/tb_ring_osc_top_func_synth.v:29672]
+INFO: [#UNDEF] Sorry, too many errors..
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

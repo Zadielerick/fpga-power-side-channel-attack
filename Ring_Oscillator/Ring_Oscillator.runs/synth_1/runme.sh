@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.runs/synth_1'
+HD_PWD='D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log ring_osc_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ring_osc_top.tcl
+EAStep vivado -log design_2_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_wrapper.tcl
