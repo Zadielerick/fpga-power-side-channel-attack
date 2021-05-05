@@ -1,0 +1,26 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"147,-312",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -50 -y -140 -defaultsOSRD
+preplace port reset_rtl -pg 1 -lvl 0 -x -50 -y -160 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 340 -y 90 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 4 -x 1110 -y 0 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 2 -x 620 -y -150 -defaultsOSRD
+preplace inst power_virus_set_0 -pg 1 -lvl 2 -x 620 -y -10 -defaultsOSRD
+preplace netloc Net 1 0 4 -30 0 490 60 730J -10 N
+preplace netloc sys_clock_1 1 0 2 NJ -140 NJ
+preplace netloc reset_rtl_1 1 0 2 NJ -160 NJ
+preplace netloc power_virus_w1_sample 1 0 4 -20 10 470J 70 720J 10 N
+preplace netloc virus_set_enable 1 1 1 480 -20n
+levelinfo -pg 1 -50 340 620 850 1110 1220
+pagesize -pg 1 -db -bbox -sgen -170 -350 1220 290
+"
+}
+{
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"4"
+}
