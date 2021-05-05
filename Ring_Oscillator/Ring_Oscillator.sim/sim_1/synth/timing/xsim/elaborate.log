@@ -1,0 +1,10 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 89f8cb9552144acabdd05e2a31ca0b4c --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_ring_osc_top_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_ring_osc_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'p_0_in' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim/tb_ring_osc_top_time_synth.v:414]
+ERROR: [VRFC 10-3180] cannot find port 'en_out' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim/tb_ring_osc_top_time_synth.v:411]
+ERROR: [VRFC 10-3180] cannot find port 'Q_reg' on this module [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/synth/timing/xsim/tb_ring_osc_top_time_synth.v:410]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

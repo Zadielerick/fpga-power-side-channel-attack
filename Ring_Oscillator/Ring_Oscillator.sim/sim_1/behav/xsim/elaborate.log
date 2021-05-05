@@ -1,0 +1,20 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 89f8cb9552144acabdd05e2a31ca0b4c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_ring_osc_top_behav xil_defaultlib.tb_ring_osc_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'T' [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/RO_counter.v:15]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'T' [D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/RO_counter.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.TFF
+Compiling module xil_defaultlib.counter_default
+Compiling module xil_defaultlib.RO_counter
+Compiling module xil_defaultlib.adder_tree16_32
+Compiling module xil_defaultlib.ring_osc_top_default
+Compiling module xil_defaultlib.tb_ring_osc_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ring_osc_top_behav

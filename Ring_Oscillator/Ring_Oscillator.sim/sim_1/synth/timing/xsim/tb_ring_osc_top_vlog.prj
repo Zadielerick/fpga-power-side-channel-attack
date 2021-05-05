@@ -1,0 +1,8 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_ring_osc_top_time_synth.v" \
+"../../../../../Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v" \
+"../../../../../Ring_Oscillator.srcs/sources_1/new/ring_osc.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,54 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 89f8cb9552144acabdd05e2a31ca0b4c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_ring_osc_top_func_impl xil_defaultlib.tb_ring_osc_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'ring_osc_top' does not have a parameter named CNT_WIDTH [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDCE(IS_C_INVERTED=1'b1)
+Compiling module xil_defaultlib.TFF
+Compiling module xil_defaultlib.TFF_0
+Compiling module xil_defaultlib.TFF_1
+Compiling module xil_defaultlib.TFF_2
+Compiling module xil_defaultlib.TFF_3
+Compiling module xil_defaultlib.TFF_4
+Compiling module xil_defaultlib.TFF_5
+Compiling module xil_defaultlib.TFF_6
+Compiling module xil_defaultlib.TFF_7
+Compiling module xil_defaultlib.TFF_8
+Compiling module xil_defaultlib.TFF_9
+Compiling module xil_defaultlib.TFF_10
+Compiling module xil_defaultlib.TFF_11
+Compiling module xil_defaultlib.TFF_12
+Compiling module xil_defaultlib.TFF_13
+Compiling module xil_defaultlib.TFF_14
+Compiling module xil_defaultlib.TFF_15
+Compiling module xil_defaultlib.TFF_16
+Compiling module xil_defaultlib.TFF_17
+Compiling module xil_defaultlib.TFF_18
+Compiling module xil_defaultlib.TFF_19
+Compiling module xil_defaultlib.TFF_20
+Compiling module xil_defaultlib.TFF_21
+Compiling module xil_defaultlib.TFF_22
+Compiling module xil_defaultlib.TFF_23
+Compiling module xil_defaultlib.TFF_24
+Compiling module xil_defaultlib.TFF_25
+Compiling module xil_defaultlib.TFF_26
+Compiling module xil_defaultlib.TFF_27
+Compiling module xil_defaultlib.TFF_28
+Compiling module xil_defaultlib.TFF_29
+Compiling module xil_defaultlib.TFF_30
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.ring_osc_top
+Compiling module xil_defaultlib.tb_ring_osc_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ring_osc_top_func_impl

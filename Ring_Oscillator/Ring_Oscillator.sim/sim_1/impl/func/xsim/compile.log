@@ -1,0 +1,39 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.sim/sim_1/impl/func/xsim/tb_ring_osc_top_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TFF
+INFO: [VRFC 10-311] analyzing module TFF_0
+INFO: [VRFC 10-311] analyzing module TFF_1
+INFO: [VRFC 10-311] analyzing module TFF_10
+INFO: [VRFC 10-311] analyzing module TFF_11
+INFO: [VRFC 10-311] analyzing module TFF_12
+INFO: [VRFC 10-311] analyzing module TFF_13
+INFO: [VRFC 10-311] analyzing module TFF_14
+INFO: [VRFC 10-311] analyzing module TFF_15
+INFO: [VRFC 10-311] analyzing module TFF_16
+INFO: [VRFC 10-311] analyzing module TFF_17
+INFO: [VRFC 10-311] analyzing module TFF_18
+INFO: [VRFC 10-311] analyzing module TFF_19
+INFO: [VRFC 10-311] analyzing module TFF_2
+INFO: [VRFC 10-311] analyzing module TFF_20
+INFO: [VRFC 10-311] analyzing module TFF_21
+INFO: [VRFC 10-311] analyzing module TFF_22
+INFO: [VRFC 10-311] analyzing module TFF_23
+INFO: [VRFC 10-311] analyzing module TFF_24
+INFO: [VRFC 10-311] analyzing module TFF_25
+INFO: [VRFC 10-311] analyzing module TFF_26
+INFO: [VRFC 10-311] analyzing module TFF_27
+INFO: [VRFC 10-311] analyzing module TFF_28
+INFO: [VRFC 10-311] analyzing module TFF_29
+INFO: [VRFC 10-311] analyzing module TFF_3
+INFO: [VRFC 10-311] analyzing module TFF_30
+INFO: [VRFC 10-311] analyzing module TFF_4
+INFO: [VRFC 10-311] analyzing module TFF_5
+INFO: [VRFC 10-311] analyzing module TFF_6
+INFO: [VRFC 10-311] analyzing module TFF_7
+INFO: [VRFC 10-311] analyzing module TFF_8
+INFO: [VRFC 10-311] analyzing module TFF_9
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module ring_osc_top
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ring_osc_top
+WARNING: [VRFC 10-8374] loop variable declaration is not allowed in this mode of Verilog [D:/Xilinx/Vivado/2020.1_Projects/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v:48]

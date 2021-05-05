@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun May  2 17:59:41 2021
+# Process ID: 11012
+# Current directory: D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.runs/design_1_ila_0_0_synth_1
+# Command line: vivado.exe -log design_1_ila_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ila_0_0.tcl
+# Log file: D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.runs/design_1_ila_0_0_synth_1/design_1_ila_0_0.vds
+# Journal file: D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.runs/design_1_ila_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_ila_0_0.tcl -notrace

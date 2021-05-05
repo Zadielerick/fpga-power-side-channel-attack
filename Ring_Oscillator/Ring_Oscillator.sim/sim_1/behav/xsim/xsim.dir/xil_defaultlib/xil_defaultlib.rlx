@@ -1,0 +1,10 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v,1619736724,verilog,,,,tb_ring_osc_top,,,,,,,,
+D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/RO_counter.v,1619736557,verilog,,D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/adder_tree.v,,RO_counter;TFF;counter,,,,,,,,
+D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/adder_tree.v,1619732894,verilog,,D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v,,adder_tree16_32,,,,,,,,
+D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc.v,1619735210,verilog,,D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc_top.v,,ring_osc,,,,,,,,
+D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/ring_osc_top.v,1619736600,verilog,,D:/School/HW_security/fpga-power-side-channel-attack/Ring_Oscillator/Ring_Oscillator.srcs/sources_1/new/RO_counter.v,,ring_osc_top,,,,,,,,
