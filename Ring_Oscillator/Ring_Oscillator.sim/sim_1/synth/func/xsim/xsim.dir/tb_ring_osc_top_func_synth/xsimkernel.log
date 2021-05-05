@@ -1,7 +1,0 @@
-Running: xsim.dir/tb_ring_osc_top_func_synth/xsimk.exe -simmode gui -wdb tb_ring_osc_top_func_synth.wdb -simrunnum 0 -socket 55052
-Design successfully loaded
-Design Loading Memory Usage: 6152 KB (Peak: 6152 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 11117460 KB (Peak: 11117460 KB)
-Simulation CPU Usage: 147936 ms

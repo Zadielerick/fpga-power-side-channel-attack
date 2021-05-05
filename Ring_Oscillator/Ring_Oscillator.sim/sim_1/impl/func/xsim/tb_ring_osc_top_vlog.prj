@@ -1,7 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  \
-"tb_ring_osc_top_func_impl.v" \
-"../../../../../Ring_Oscillator.srcs/sim_1/new/tb_ring_osc_top.v" \
-
-# Do not sort compile order
-nosort

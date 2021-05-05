@@ -1,7 +1,0 @@
-Running: xsim.dir/tb_ring_osc_top_behav/xsimk.exe -simmode gui -wdb tb_ring_osc_top_behav.wdb -simrunnum 0 -socket 58976
-Design successfully loaded
-Design Loading Memory Usage: 6620 KB (Peak: 6620 KB)
-Design Loading CPU Usage: 31 ms
-Simulation completed
-Simulation Memory Usage: 7500 KB (Peak: 7500 KB)
-Simulation CPU Usage: 93 ms
